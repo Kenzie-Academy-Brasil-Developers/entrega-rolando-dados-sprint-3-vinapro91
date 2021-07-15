@@ -72,7 +72,7 @@ const buttom = document.getElementById("hiden")
      resultGrafico.style.display = "flex"
  }
     
- buttom.addEventListener("click" , mostraTela)
+//  buttom.addEventListener("click" , mostraTela)
 
  const renderizaResultado2  = () => {
     let conta = contaRolamento()

@@ -12,7 +12,7 @@ button{
 }
 
 #resultados-numeros{
-    display: block;
+    display: flex;
     width: 100vw;
 }
 #resultado-grafico{
