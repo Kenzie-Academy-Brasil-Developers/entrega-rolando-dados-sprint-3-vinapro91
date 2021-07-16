@@ -16,7 +16,7 @@ button{
     width: 100vw;
 }
 #resultado-grafico{
-    display: none;
+    display: flex;
     flex-direction: column;
     width: 100vw;
 }
@@ -27,16 +27,16 @@ body {
 }
 
 #resultado-cel{
-    display: flex;
+    display: none;
     flex-direction: row;
 }
 
-@media (max-width: 700px) {
+@media (min-width: 475px) {
     #resultado-grafico {
-        display: flex;
+        display: none;
     }
     #resultado-cel{
-        display: none;
+        display: flex;
         flex-direction: row;
     }
 }

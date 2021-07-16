@@ -21,7 +21,7 @@ const buttom = document.getElementById("hiden")
 
     const milDados = () => {
         let rolamento =[] 
-        for (let i = 1; i <1000; i++){
+        for (let i = 1; i <=1000; i++){
             rolamento[i] = rollDice1() + rollDice2()
         }
         return rolamento
@@ -50,7 +50,7 @@ const buttom = document.getElementById("hiden")
     for (let i = 0; i<conta.length; i++){
         let newElement = document.createElement("div");
             newElement.className = "bar";
-            newElement.style.width = 10 + conta[i]*2 + "px";
+            newElement.style.width = conta[i]*1 + "px";
         let text = document.createTextNode(i + 2 + ":" + conta[i] )
         newElement.appendChild(text)
         resultGrafico.appendChild(newElement)
@@ -80,7 +80,7 @@ const buttom = document.getElementById("hiden")
    for (let i = 0; i<conta.length; i++){
        let newElement = document.createElement("div");
            newElement.className = "bar";
-           newElement.style.height = 10 + conta[i]*2 + "px";
+           newElement.style.height = conta[i]*1 + "px";
        let text = document.createTextNode(i + 2 + ":" + conta[i] )
        newElement.appendChild(text)
        resultCel.appendChild(newElement)
